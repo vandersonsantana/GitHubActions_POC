@@ -9,7 +9,7 @@ namespace Calculadora.Controllers
         [HttpPost]
         public decimal Somar(Model.Calculadora calculadora)
         {
-            return calculadora.ValorA - calculadora.ValorB;
+            return calculadora.ValorA + calculadora.ValorB;
         }
     }
 }
